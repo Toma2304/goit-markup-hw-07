@@ -29,8 +29,10 @@
     padding-left: 0;
 }
 
-.footer-list__soc:not(:last-child) {
-    margin-right: 10px;
+.footer-list__soc {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .footer-soc__link {
@@ -46,11 +48,11 @@
     transition-property: color background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-soc__link:hover, 
-.footer-soc__link:focus {
-    background-color: var(--accent-color);
-    fill: var(--primary-bg-color);
+    &:hover, 
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--primary-bg-color);
+    }
+    
 }
-

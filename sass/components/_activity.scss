@@ -1,12 +1,17 @@
-.section .activity-list {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-top: 50px;
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    .activity-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-top: 50px;
+    }
 }
-
-.activity-list__item:not(:last-child){
-    margin-right: 30px;
+.activity-list__item {
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .activity-list__item {
@@ -40,5 +45,4 @@
     display: block;
 }
 
-/* Section */
 
