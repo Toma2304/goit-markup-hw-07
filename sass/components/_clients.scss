@@ -19,6 +19,11 @@
     transition-property: color background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
 }
 
 .clients-list {
@@ -31,10 +36,5 @@
 .clients-list__item {
     &:not(:last-child){
         margin-right: 30px;
-    }
-    &:hover, &:focus {
-        border: 1px solid var(--accent-color);
-        border-radius: 4px;
-        fill: var(--accent-color);
     }
 }
