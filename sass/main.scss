@@ -1,6 +1,6 @@
-@import "./base/common";
 /////////////////////////////////////
 @import "./utils/variables";
+@import "./utils/common";
 /////////////////////////////////////
 @import "./components/container";
 @import "./components/section";
@@ -10,13 +10,13 @@
 @import "./components/modal";
 @import "./components/form";
 //////////////////////////////////////
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/featerus";
-@import "./layout/activity";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/contacts-footer";
-@import "./layout/subscribe-footer";
-@import "./layout/footer";
-@import "./layout/portfolio";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/featerus";
+@import "./components/activity";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/contacts-footer";
+@import "./components/subscribe-footer";
+@import "./components/footer";
+@import "./components/portfolio";
