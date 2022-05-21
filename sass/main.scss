@@ -1,6 +1,22 @@
-@import "./utils/variables";
 @import "./base/common";
-@import "./base/reset";
-
+/////////////////////////////////////
+@import "./utils/variables";
+/////////////////////////////////////
 @import "./components/container";
 @import "./components/section";
+@import "./components/logo";
+@import "./components/title";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
+//////////////////////////////////////
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/featerus";
+@import "./layout/activity";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/contacts-footer";
+@import "./layout/subscribe-footer";
+@import "./layout/footer";
+@import "./layout/portfolio";
