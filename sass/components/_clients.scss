@@ -26,15 +26,15 @@
     padding-left: 0; 
     display: flex;
     justify-content: center;
-        &:hover, 
-        &:focus {
-        border: 1px solid var(--accent-color);
-        fill: var(--accent-color);
-    }
 }
 
 .clients-list__item {
     &:not(:last-child){
         margin-right: 30px;
+    }
+    &:hover, &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+        border-radius: 4px;
     }
 }

@@ -492,7 +492,7 @@ body {
 }
 
 .features {
-  padding-bottom: 0;
+  padding-top: 94px;
 }
 
 .features-list {
@@ -729,13 +729,14 @@ body {
           justify-content: center;
 }
 
-.clients-list:hover, .clients-list:focus {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
-}
-
 .clients-list__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients-list__item:hover, .clients-list__item:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+  border-radius: 4px;
 }
 
 .social {
