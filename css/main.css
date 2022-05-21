@@ -651,8 +651,12 @@ body {
   margin-right: 30px;
 }
 
-.our-team__item:not(:last-child) {
+.team-soc__item {
   margin-right: 10px;
+}
+
+.team-soc__item:last-child {
+  margin-right: 0;
 }
 
 .team-soc {

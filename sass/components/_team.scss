@@ -45,8 +45,12 @@
         margin-right: 30px;
     }
 
-    &:not(:last-child){
-        margin-right: 10px;
+}
+
+.team-soc__item {
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0;
     }
 }
 
@@ -74,5 +78,6 @@
     &:hover, &:focus {
     background-color: var(--accent-color);
     fill: var(--primary-bg-color);
+
 }
 }
